@@ -6,7 +6,7 @@ class Zoo:
             return 100
         elif 21 <= age <= 60: #add from 21 < age to 21 <= age
             return 150
-        elif age >= 60:
+        elif age > 60: #add from  age >= 60 to age > 60
             return 100
         else :  #add case: lower than 0 => Invalid age
             return 'Invalid Age'
